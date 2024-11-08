@@ -17,5 +17,6 @@ const showRecipe = async function() {
         alert(err);
     }
 };
+showRecipe();
 
 //# sourceMappingURL=index.62406edb.js.map
