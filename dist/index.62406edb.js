@@ -8,8 +8,6 @@ const timeout = function(s) {
 };
 // https://forkify-api.herokuapp.com/v2
 ///////////////////////////////////////
-const showRecipe = async function() {
-    <invalid>;
-};
+const showRecipe = async function() {};
 
 //# sourceMappingURL=index.62406edb.js.map

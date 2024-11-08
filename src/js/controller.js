@@ -14,7 +14,7 @@ const timeout = function (s) {
 
 const showRecipe = async function () {
   try {
-
+    const res = await fetch(
   } catch (err) {
     alert(err);
   }
