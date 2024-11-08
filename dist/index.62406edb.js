@@ -5,7 +5,9 @@ const timeout = function(s) {
             reject(new Error(`Request took too long! Timeout after ${s} second`));
         }, s * 1000);
     });
-}; // https://forkify-api.herokuapp.com/v2
- ///////////////////////////////////////
+};
+// https://forkify-api.herokuapp.com/v2
+///////////////////////////////////////
+console.log("Test");
 
 //# sourceMappingURL=index.62406edb.js.map
