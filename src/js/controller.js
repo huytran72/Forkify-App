@@ -13,3 +13,9 @@ const timeout = function (s) {
 ///////////////////////////////////////
 
 const showRecipe = async function () {
+  try {
+
+  catch (err) {
+    alert(err);
+  }
+};
