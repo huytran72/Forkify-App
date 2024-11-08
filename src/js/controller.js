@@ -12,4 +12,3 @@ const timeout = function (s) {
 
 ///////////////////////////////////////
 
-console.log('Test');
