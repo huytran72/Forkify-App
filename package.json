@@ -8,5 +8,9 @@
     "build": "parcel build index.html --public-url ./"
   },
   "author": "Kenny Tran",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
 }
