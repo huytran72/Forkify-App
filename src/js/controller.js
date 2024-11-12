@@ -112,6 +112,7 @@ const showRecipe = async function () {
         </ul>
       </div>
     `;
+    recipeContainer.innerHTML = '';
   } catch (err) {
     alert(err);
   }
