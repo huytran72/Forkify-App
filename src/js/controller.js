@@ -117,6 +117,8 @@ const showRecipe = async function () {
         <p class="recipe__directions-text">
           This recipe was carefully designed and tested by
           <span class="recipe__publisher">${recipe.publisher}</span>. Please check out
+          directions at their website.
+        </p>
             `;
             }
             )
