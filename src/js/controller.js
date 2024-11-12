@@ -119,6 +119,8 @@ const showRecipe = async function () {
           <span class="recipe__publisher">${recipe.publisher}</span>. Please check out
           directions at their website.
         </p>
+        <a
+          class="btn--small recipe__btn"
             `;
             }
             )
