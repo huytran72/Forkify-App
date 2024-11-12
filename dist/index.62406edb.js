@@ -69,7 +69,7 @@ const showRecipe = async function() {
         <div class="recipe__user-generated">
           <svg>
             <use href="src/img/icons.svg#icon-user"></use>
-
+          </svg>
         <button class="btn--round">
           <svg class="">
             <use href="src/img/icons.svg#icon-bookmark-fill"></use>
