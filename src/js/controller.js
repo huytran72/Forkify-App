@@ -23,6 +23,11 @@ const showRecipe = async function () {
 
     console.log(res, data);
     let { recipe } = data.data;
+    recipe = {
+      
+    }; 
+
+
   } catch (err) {
     alert(err);
   }
