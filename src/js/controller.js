@@ -123,6 +123,8 @@ const showRecipe = async function () {
           class="btn--small recipe__btn"
           href="${recipe.sourceUrl}"
           target="_blank"
+        >
+          <span>Directions</span>
             `;
             }
             )
