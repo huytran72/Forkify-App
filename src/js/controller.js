@@ -107,6 +107,9 @@ const showRecipe = async function () {
             <div class="recipe__quantity">0.5</div>
             <div class="recipe__description">
               <span class="recipe__unit">cup</span> ricotta cheese
+            </div>
+          </li>
+        </ul>
             `;
             }
             )
