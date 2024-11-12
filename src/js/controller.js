@@ -14,6 +14,7 @@ const timeout = function (s) {
 
 const showRecipe = async function () {
   try {
+    // 1) Loading recipe
     const res = await fetch(
       'https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886'
       // 'https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bca5a'
