@@ -66,6 +66,8 @@ const showRecipe = async function() {
           </div>
         </div>
 
+        <div class="recipe__user-generated">
+
         <button class="btn--round">
           <svg class="">
             <use href="src/img/icons.svg#icon-bookmark-fill"></use>
