@@ -54,13 +54,12 @@ const showRecipe = async function () {
           <span class="recipe__info-data recipe__info-data--minutes">${recipe.cookingTime}</span>
           <span class="recipe__info-text">minutes</span>
         </div>
+
         <div class="recipe__info">
           <svg class="recipe__info-icon">
             <use href="src/img/icons.svg#icon-users"></use>
           </svg>
-          <span class="recipe__info-data recipe__info-data--people">${
-            recipe.servings
-          }</span>
+          <span class="recipe__info-data recipe__info-data--people">${recipe.servings}</span>
           <span class="recipe__info-text">servings</span>
 
           <div class="recipe__info-buttons">
