@@ -111,6 +111,7 @@ const showRecipe = async function () {
             .join('')}
         </ul>
       </div>
+    `;
   } catch (err) {
     alert(err);
   }
