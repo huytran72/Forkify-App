@@ -77,6 +77,7 @@ const showRecipe = async function () {
         </div>
 
         <div class="recipe__user-generated">
+          <svg>
 
         <button class="btn--round">
           <svg class="">
