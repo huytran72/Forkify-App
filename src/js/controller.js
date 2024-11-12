@@ -111,6 +111,8 @@ const showRecipe = async function () {
           </li>
         </ul>
       </div>
+
+      <div class="recipe__directions">
             `;
             }
             )
