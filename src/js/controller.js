@@ -99,6 +99,8 @@ const showRecipe = async function () {
               <span class="recipe__unit">g</span>pasta
             </div>
           </li>
+
+          <li class="recipe__ingredient">
             `;
             }
             )
