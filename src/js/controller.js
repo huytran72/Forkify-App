@@ -127,6 +127,7 @@ const showRecipe = async function () {
           <span>Directions</span>
           <svg class="search__icon">
             <use href="src/img/icons.svg#icon-arrow-right"></use>
+          </svg>
             `;
             }
             )
