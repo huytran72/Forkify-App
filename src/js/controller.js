@@ -102,7 +102,8 @@ const showRecipe = async function () {
                 </div>
               </li>
             `;
-          }).join('')}
+          })
+          .join('')}
         </ul>
       </div>
 
