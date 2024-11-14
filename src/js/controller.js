@@ -128,6 +128,7 @@ const showRecipe = async function () {
           <svg class="search__icon">
             <use href="src/img/icons.svg#icon-arrow-right"></use>
           </svg>
+        </a>
             `;
             }
             )
