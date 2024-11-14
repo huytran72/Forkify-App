@@ -130,7 +130,7 @@ const showRecipe = async function () {
           </svg>
         </a>
       </div>
-            `;
+    `;
             }
             )
             .join('')}
