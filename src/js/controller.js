@@ -125,6 +125,7 @@ const showRecipe = async function () {
           target="_blank"
         >
           <span>Directions</span>
+          <svg class="search__icon">
             `;
             }
             )
