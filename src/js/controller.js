@@ -22,6 +22,7 @@ const renderSpinner = function (parentEl) {
         <use href="${icons}#icon-loader"></use>
       </svg>
     </div>
+  `;
 
 const showRecipe = async function () {
   try {
