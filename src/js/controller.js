@@ -18,6 +18,7 @@ const timeout = function (s) {
 const renderSpinner = function (parentEl) {
   const markup = `
     <div class="spinner">
+      <svg>
 
 const showRecipe = async function () {
   try {
