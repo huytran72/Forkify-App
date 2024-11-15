@@ -28,6 +28,7 @@ const renderSpinner = function (parentEl) {
 
   parentEl.innerHTML = '';
   parentEl.insertAdjacentHTML('afterbegin', markup);
+};
 
 const showRecipe = async function () {
   try {
