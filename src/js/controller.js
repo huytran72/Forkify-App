@@ -1,3 +1,5 @@
+import icons from 'url:../img/icons.svg'; // Parcel 2
+
 const recipeContainer = document.querySelector('.recipe');
 
 const timeout = function (s) {
