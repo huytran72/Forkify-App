@@ -24,6 +24,8 @@ const renderSpinner = function (parentEl) {
     </div>
   `;
 
+  parentEl.innerHTML = '';
+
 const showRecipe = async function () {
   try {
     // 1) Loading recipe
