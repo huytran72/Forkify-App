@@ -140,6 +140,6 @@ const showRecipe = async function() {
     }
 };
 showRecipe();
-window.addEventListener("hashchange", showRecipe);
+window.addEventListener("hashchange", showRecipe); // window.addEventListener('load', showRecipe);
 
 //# sourceMappingURL=index.62406edb.js.map
