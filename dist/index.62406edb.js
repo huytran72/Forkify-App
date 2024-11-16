@@ -140,6 +140,10 @@ const showRecipe = async function() {
     }
 };
 showRecipe();
+[
+    "hashchange",
+    "load"
+].forEach((ev)=>window.addEventListener(ev, showRecipe));
 window.addEventListener("hashchange", showRecipe); // window.addEventListener('load', showRecipe);
 
 //# sourceMappingURL=index.62406edb.js.map
