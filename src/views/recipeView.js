@@ -4,6 +4,9 @@ class RecipeView {
 
     reder(data) {
         this.#data = data;
+        const markup = this.#generateMarkup();
+        recipeContainer.innerHTML = '';
+        recipeContainer.insertAdjacentHTML('afterbegin', markup);
     }
 
     #generateMarkup() {
@@ -95,8 +98,7 @@ class RecipeView {
         </a>
       </div>
     `;
-    recipeContainer.innerHTML = '';
-    recipeContainer.insertAdjacentHTML('afterbegin', markup);
+
     }   
 }
 
