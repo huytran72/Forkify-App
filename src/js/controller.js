@@ -37,7 +37,6 @@ const showRecipe = async function () {
 
     if (!id) return;
 
-
     // 1) Loading recipe
     renderSpinner(recipeContainer);
     const res = await fetch(
