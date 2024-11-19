@@ -11,7 +11,7 @@ export const loadRecipe = async function(id) {
 
         if (!res.ok) throw new Error(`${data.message} (${res.status})`);
 
-        let { recipe } = data.data;
+        const { recipe } = data.data;
         recipe = {
             id: recipe.id,
             title: recipe.title,
