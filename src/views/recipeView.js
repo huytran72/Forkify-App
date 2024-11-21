@@ -22,6 +22,7 @@ class RecipeView {
                 </svg>
             </div>
         `;
+        this.#parentElement.innerHTML = '';
     };
 
     #generateMarkup() {
