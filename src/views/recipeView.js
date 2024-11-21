@@ -21,6 +21,7 @@ class RecipeView {
                     <use href="src/img/icons.svg#icon-loader"></use>
                 </svg>
             </div>
+        `;
 
     #generateMarkup() {
         return `
