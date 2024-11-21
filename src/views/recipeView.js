@@ -14,7 +14,7 @@ class RecipeView {
         this.#parentElement.innerHTML = '';
     }
 
-    renderSpinner = function(parentEl) {
+    renderSpinner = function() {
         const markup = `
             <div class="spinner">
                 <svg>
