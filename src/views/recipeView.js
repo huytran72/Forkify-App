@@ -17,6 +17,7 @@ class RecipeView {
     renderSpinner = function(parentEl) {
         const markup = `
             <div class="spinner">
+                <svg>
 
     #generateMarkup() {
         return `
