@@ -15,6 +15,7 @@ class RecipeView {
     }
 
     renderSpinner = function(parentEl) {
+        const markup = `
 
     #generateMarkup() {
         return `
