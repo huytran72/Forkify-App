@@ -14,6 +14,8 @@ class RecipeView {
         this.#parentElement.innerHTML = '';
     }
 
+    renderSpinner = function(parentEl) {
+
     #generateMarkup() {
         return `
       <figure class="recipe__fig">
