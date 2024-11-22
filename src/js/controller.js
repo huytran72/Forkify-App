@@ -37,6 +37,7 @@ const controlRecipes = async function () {
     console.log(id);
 
     if (!id) return;
+    recipeView.renderSpinner();
 
     // 1) Loading recipe
     await model.loadRecipe(id);
