@@ -29,7 +29,8 @@ class RecipeView {
         this.#parentElement.insertAdjacentHTML('afterbegin', markup);
     };
 
-    #generateMarkup() {
+    _generateMarkup() {
+        console.log(this.#data);
         return `
       <figure class="recipe__fig">
         <img src="${recipe.image}" alt="${recipe.title}" class="recipe__img" />
