@@ -1,5 +1,6 @@
 imnport icons from 'url:../../img/icons.svg'; // Parcel 1
 
+
 class RecipeView {
     #parentElement = document.querySelector('.recipe');
     #data;
