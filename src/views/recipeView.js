@@ -1,4 +1,5 @@
 import icons from 'url:../../img/icons.svg'; // Parcel 1
+import { Fraction } from 'fractional';
 
 
 class RecipeView {
