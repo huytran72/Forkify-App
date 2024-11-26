@@ -118,6 +118,7 @@ class RecipeView {
             <use href='src/img/icons.svg#icon-check'></use>
           </svg>
           <div class='recipe__quantity'>${ing.quantity ? new Fraction(ing.quantity).toString() : ''}</div>
+          <div class='recipe__description'>
         `;
   }
 }
