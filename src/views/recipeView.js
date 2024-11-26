@@ -111,7 +111,10 @@ class RecipeView {
     `;
     }   
   
-    #generateMarkupIngredient(ingredient) {
+    #generateMarkupIngredient() ing => {
+      return `
+        <li class='recipe__ingredient'>`
+  }
 }
 
 export default new RecipeView();
