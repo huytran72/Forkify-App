@@ -109,8 +109,9 @@ class RecipeView {
         </a>
       </div>
     `;
-
     }   
+  
+    #generateMarkupIngredient(ingredient) {
 }
 
 export default new RecipeView();
