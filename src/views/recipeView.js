@@ -111,7 +111,7 @@ class RecipeView {
     `;
     }   
   
-    #generateMarkupIngredient() ing => {
+    #generateMarkupIngredient(ing) {
       return `
         <li class='recipe__ingredient'>
           <svg class='recipe__icon'>
@@ -122,7 +122,7 @@ class RecipeView {
             <span class='recipe__unit'>${ing.unit}</span>
             ${ing.description}
           </div>
-        `;
+        </li>`;
   }
 }
 
