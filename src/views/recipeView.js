@@ -115,6 +115,7 @@ class RecipeView {
       return `
         <li class='recipe__ingredient'>
           <svg class='recipe__icon'>
+            <use href='src/img/icons.svg#icon-check'></use>
         `;
   }
 }
