@@ -113,7 +113,9 @@ class RecipeView {
   
     #generateMarkupIngredient() ing => {
       return `
-        <li class='recipe__ingredient'>`
+        <li class='recipe__ingredient'>
+          <svg class='recipe__icon'>
+        `;
   }
 }
 
