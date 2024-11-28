@@ -39,6 +39,7 @@ class RecipeView {
                     </svg>
                 </div>
                 <p>${message}</p>
+            </div>
     };  
 
     addHandlerRender(handler) {
