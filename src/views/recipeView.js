@@ -40,6 +40,7 @@ class RecipeView {
                 </div>
                 <p>${message}</p>
             </div>
+        `;
     };  
 
     addHandlerRender(handler) {
