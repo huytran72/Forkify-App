@@ -31,7 +31,7 @@ class RecipeView {
     };
 
     renderError(message = this.#errorMessage) {
-    
+        const markup = `
     };  
 
     addHandlerRender(handler) {
