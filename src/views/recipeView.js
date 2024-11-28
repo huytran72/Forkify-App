@@ -31,6 +31,8 @@ class RecipeView {
     };
 
     addHandlerRender(handler) {
+    
+    };
 
 
     #generateMarkup() {
