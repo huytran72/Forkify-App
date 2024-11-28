@@ -30,7 +30,7 @@ class RecipeView {
         this.#parentElement.insertAdjacentHTML('afterbegin', markup);
     };
 
-    renderError(message = this.#errorMessage) {
+    renderError() {
         const markup = `
             <div class="error">
                 <div>
