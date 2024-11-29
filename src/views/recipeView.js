@@ -47,7 +47,18 @@ class RecipeView {
     };  
 
     renderMessage(message = this.#message) {
-
+        const markup = `
+            <div class="error">
+                <div>
+                    <svg>
+                        <use href="src/img/icons.svg#icon-smile"></use>
+                    </svg>
+                </div>
+                <p>${message}</p>
+            </div>
+        `;
+        this.#clear();
+        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
     };
 
     addHandlerRender(handler) {
