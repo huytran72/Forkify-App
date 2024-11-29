@@ -5,7 +5,7 @@ import { Fraction } from 'fractional';
 class RecipeView {
     #parentElement = document.querySelector('.recipe');
     #data;
-    #errorMessage
+    #errorMessage = 'We could not find that recipe. Please try another one!';
 
     reder(data) {
         this.#data = data;
