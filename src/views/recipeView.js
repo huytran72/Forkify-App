@@ -6,6 +6,7 @@ class RecipeView {
     #parentElement = document.querySelector('.recipe');
     #data;
     #errorMessage = 'We could not find that recipe. Please try another one!';
+    #message = '';
 
     reder(data) {
         this.#data = data;
