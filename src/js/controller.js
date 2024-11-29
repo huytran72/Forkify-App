@@ -37,7 +37,7 @@ const controlRecipes = async function () {
     // 2) Rendering recipe
     recipeView.render(model.state.recipe);  
   } catch (err) {
-    recipeView.renderError();
+    recipeView.renderError('We could not find that recipe. Please try another one!');
   }
 };
 
