@@ -31,5 +31,7 @@ export const loadRecipe = async function(id) {
 }
 
 export const loadSearchResults = async function(query) {
-
+    try {
+        
+    }
 };
