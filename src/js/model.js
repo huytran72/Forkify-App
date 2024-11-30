@@ -34,7 +34,8 @@ export const loadSearchResults = async function(query) {
     try {
         state.search.query = query;
 
-        const data = await getJSON(`${API_URL}?search=${query}`);           
+        const data = await getJSON(`${API_URL}?search=${query}`);  
+        console.log(data);         
     } catch (err) {
         console.error(`${err}`);
         throw err;
