@@ -38,6 +38,8 @@ export const loadSearchResults = async function(query) {
         console.log(data);         
 
         state.search.resuits = data.data.recipes.map(rec => {
+
+        });
     } catch (err) {
         console.error(`${err}`);
         throw err;
