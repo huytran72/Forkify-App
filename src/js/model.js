@@ -32,7 +32,9 @@ export const loadRecipe = async function(id) {
 
 export const loadSearchResults = async function(query) {
     try {
+        state.search.query = query;
 
+        
     } catch (err) {
         console.error(`${err}`);
         throw err;
