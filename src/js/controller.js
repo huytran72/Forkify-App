@@ -46,6 +46,8 @@ const controlSearchResults = async function () {
     // 1) Get search query
     const query = recipeView.getQuery();
     if (!query) return;
+
+    // 2) Load search results
   } catch (err) {
     console.error(err);
   }
