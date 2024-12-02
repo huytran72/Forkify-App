@@ -48,6 +48,7 @@ const controlSearchResults = async function () {
     if (!query) return;
 
     // 2) Load search results
+    await model.loadSearchResults(query);
   } catch (err) {
     console.error(err);
   }
