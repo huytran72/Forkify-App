@@ -44,6 +44,7 @@ const controlRecipes = async function () {
 const controlSearchResults = async function () {
   try {
     // 1) Get search query
+    const query = recipeView.getQuery();
   } catch (err) {
     console.error(err);
   }
