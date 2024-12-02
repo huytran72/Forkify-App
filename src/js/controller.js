@@ -42,7 +42,9 @@ const controlRecipes = async function () {
 };
 
 const controlSearchResults = async function () {
-  
+  try {
+
+  } catch 
 };
 
 const init = function () {
