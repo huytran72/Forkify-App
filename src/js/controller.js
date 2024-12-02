@@ -44,7 +44,9 @@ const controlRecipes = async function () {
 const controlSearchResults = async function () {
   try {
 
-  } catch 
+  } catch (err) {
+    console.error(err);
+  }
 };
 
 const init = function () {
