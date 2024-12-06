@@ -5,6 +5,10 @@ class SearchView {
         return this.#parentElement.querySelector('.search__field').value;
     }
 
+    clearInput() {
+        
+    }
+
     addHanderSearch(handler) {
         this.#parentElement.addEventListener('submit', function (e) {
             e.preventDefault();
