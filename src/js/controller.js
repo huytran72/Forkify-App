@@ -5,16 +5,6 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 
-// import 'core-js/stable';
-// import 'regenerator-runtime/runtime';
-
-const recipeContainer = document.querySelector('.recipe');
-
-
-// https://forkify-api.herokuapp.com/v2
-
-///////////////////////////////////////
-
 const renderSpinner = function (parentEl) {
   const markup = `
     <div class="spinner">
