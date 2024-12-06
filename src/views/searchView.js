@@ -6,6 +6,8 @@ class SearchView {
     }
 
     addHanderSearch(handler) {
+        
+    }
 };
 
 export default SearchView;
