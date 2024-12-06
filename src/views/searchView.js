@@ -6,7 +6,7 @@ class SearchView {
     }
 
     clearInput() {
-        
+        this.#parentElement.querySelector('.search__field').value = '';
     }
 
     addHanderSearch(handler) {
