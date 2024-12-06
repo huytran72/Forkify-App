@@ -6,7 +6,7 @@ class SearchView {
     }
 
     addHanderSearch(handler) {
-        
+        this.#parentElement.addEventListener
     }
 };
 
