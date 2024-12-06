@@ -57,6 +57,7 @@ controlSearchResults();
 
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
+  researchView.addHandlerSearch(controlSearchResults);
 };
 init();
 
