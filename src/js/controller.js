@@ -53,6 +53,7 @@ const controlSearchResults = async function () {
     console.error(err);
   }
 };
+controlSearchResults();
 
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
