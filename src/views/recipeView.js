@@ -5,10 +5,10 @@ import { Fraction } from 'fractional';
 
 
 class RecipeView {
-    #parentElement = document.querySelector('.recipe');
-    #data;
-    #errorMessage = 'We could not find that recipe. Please try another one!';
-    #message = '';
+    _parentElement = document.querySelector('.recipe');
+    _data;
+    _errorMessage = 'We could not find that recipe. Please try another one!';
+    _message = '';
 
     reder(data) {
         this._data = data;
@@ -19,7 +19,7 @@ class RecipeView {
     }
 
     _clear() {
-        this.#parentElement.innerHTML = '';
+        this._parentElement.innerHTML = '';
     }
 
     renderSpinner = function() {
@@ -150,7 +150,7 @@ class RecipeView {
     `;
     }   
   
-    #generateMarkupIngredient(ing) {
+    _generateMarkupIngredient(ing) {
       return `
         <li class='recipe__ingredient'>
           <svg class='recipe__icon'>
