@@ -18,7 +18,7 @@ class RecipeView {
         this._parentElement.insertAdjacentHTML('afterbegin', markup);
     }
 
-    #clear() {
+    _clear() {
         this.#parentElement.innerHTML = '';
     }
 
@@ -69,7 +69,7 @@ class RecipeView {
     };
 
 
-    #generateMarkup() {
+    _generateMarkup() {
         console.log(this.#data);
         return `
       <figure class="recipe__fig">
