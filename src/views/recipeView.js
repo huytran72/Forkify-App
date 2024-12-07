@@ -11,11 +11,11 @@ class RecipeView {
     #message = '';
 
     reder(data) {
-        this.#data = data;
-        const markup = this.#generateMarkup();
-        this.#clear();
+        this._data = data;
+        const markup = this._generateMarkup();
+        this._clear();
         recipeContainer.innerHTML = '';
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+        this._parentElement.insertAdjacentHTML('afterbegin', markup);
     }
 
     #clear() {
