@@ -20,4 +20,5 @@ export default class View {
             </div>
         `;
     }
+    this._clear();
 }
