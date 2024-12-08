@@ -13,5 +13,11 @@ export default class View {
 
     renderSpinner() {
         const markjup = `
+            <div class="spinner">
+                <svg>
+                    <use href="${icons}#icon-loader"></use>
+                </svg>
+            </div>
+        `;
     }
 }
