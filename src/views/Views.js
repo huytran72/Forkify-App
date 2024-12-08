@@ -1,6 +1,6 @@
 export default class View {
     _data;
-    render(){
-        
+    render(data){
+        this._data = data;
     }
 }
