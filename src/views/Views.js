@@ -12,6 +12,6 @@ export default class View {
     }
 
     renderSpinner() {
-        
+        const markjup = `
     }
 }
