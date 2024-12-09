@@ -8,6 +8,7 @@ class ResultsView extends View {
             <li class="preview">
                 <a class="preview__link preview__link--active" href="#${this._data.id}">
                     <figure class="preview__fig">
+                        <img src="${this._data.image}" alt="${this._data.title}" />
         `;
     }
 }
