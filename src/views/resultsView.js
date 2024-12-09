@@ -1,5 +1,5 @@
 import View from "./Views";
 
-class ResultsView {
+class ResultsView extends View {
     
 }
