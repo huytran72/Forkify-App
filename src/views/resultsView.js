@@ -14,6 +14,7 @@ class ResultsView extends View {
                         <h4 class="preview__title">${this._data.title}</h4>
                         <p class="preview__publisher">${this._data.publisher}</p>
                     </div>
+                </a>
         `;
     }
 }
