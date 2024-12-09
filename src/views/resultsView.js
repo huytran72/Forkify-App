@@ -6,6 +6,7 @@ class ResultsView extends View {
     _generateMarkup() {
         return `
             <li class="preview">
+                <a class="preview__link preview__link--active" href="#${this._data.id}">
         `;
     }
 }
