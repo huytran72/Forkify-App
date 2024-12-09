@@ -15,6 +15,7 @@ class ResultsView extends View {
                         <p class="preview__publisher">${this._data.publisher}</p>
                     </div>
                 </a>
+            </li>
         `;
     }
 }
