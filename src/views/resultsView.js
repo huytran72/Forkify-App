@@ -13,6 +13,7 @@ class ResultsView extends View {
             <li class="preview">
                 <a class="preview__link" href="#${id}">
                     <figure class="preview__fig">
+                        <img src="${image}" alt="${title}" />
         `;
     }
 }
