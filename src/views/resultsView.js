@@ -9,7 +9,9 @@ class ResultsView extends View {
     }
 
     _generateMarkupPreview() {
-
+        return `
+            <li class="preview">
+        `;
     }
 }
 
