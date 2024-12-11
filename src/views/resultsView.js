@@ -15,6 +15,9 @@ class ResultsView extends View {
                     <figure class="preview__fig">
                         <img src="${image}" alt="${title}" />
                     </figure>
+                    <div class="preview__data">
+                        <h4 class="preview__title">${title}</h4>
+                        <p class="preview__publisher">${publisher}</p>
         `;
     }
 }
