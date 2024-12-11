@@ -45,11 +45,11 @@ class RecipeView extends View {
                 <p>${message}</p>
             </div>
         `;
-        this.#clear();
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+        this._clear();
+        this._parentElement.insertAdjacentHTML('afterbegin', markup);
     };  
 
-    renderMessage(message = this.#message) {
+    renderMessage(message = this._message) {
         const markup = `
             <div class="error">
                 <div>
