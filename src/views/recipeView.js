@@ -30,11 +30,11 @@ class RecipeView extends View {
                 </svg>
             </div>
         `;
-        this.#clear();
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+        this._clear();
+        this._parentElement.insertAdjacentHTML('afterbegin', markup);
     };
 
-    renderError(message = this.#errorMessage) {
+    renderError(message = this._errorMessage) {
         const markup = `
             <div class="error">
                 <div>
@@ -60,8 +60,8 @@ class RecipeView extends View {
                 <p>${message}</p>
             </div>
         `;
-        this.#clear();
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
+        this._clear();
+        this._parentElement.insertAdjacentHTML('afterbegin', markup);
     };
 
     addHandlerRender(handler) {
@@ -70,7 +70,7 @@ class RecipeView extends View {
 
 
     _generateMarkup() {
-        console.log(this.#data);
+        console.log(this._data);
         return `
       <figure class="recipe__fig">
         <img src="${recipe.image}" alt="${recipe.title}" class="recipe__img" />
@@ -124,7 +124,7 @@ class RecipeView extends View {
         <h2 class="heading--2">Recipe ingredients</h2>
         <ul class="recipe__ingredient-list">
           ${this.recipe.ingredients
-          .map(this.#generateMarkupIngredient)
+          .map(this._generateMarkupIngredient)
           .join('')}
         </ul>
       </div>
