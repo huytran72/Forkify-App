@@ -21,6 +21,10 @@ class ResultsView extends View {
             </li>
         `;
     }
+
+    _generateMarkupPreview() {
+        
+    }
 }
 
 export default new ResultsView();
