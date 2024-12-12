@@ -10,7 +10,9 @@ class PaginationView extends View {
 
         // Page 1, and there are NO other pages
         if(this._data.page === 1 && numPages >1) {
-
+            return `
+                
+            `;
         }
 
         // Last page
