@@ -53,7 +53,7 @@ const controlSearchResults = async function () {
     recipeView.render(model.state.search.results);
     resultsView.render(model.getSearchResultsPage());
 
-    
+    // 4) Render initial pagination buttons
   } catch (err) {
     console.error(err);
   }
