@@ -8,5 +8,7 @@ class PaginationView extends View {
         // Page 1, and there are other pages
 
         // Page 1, and there are NO other pages
+
+        // Last page
     }
 }
