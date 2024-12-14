@@ -19,6 +19,7 @@ class PaginationView extends View {
         if(this._data.page === numPages && numPages > 1) {
             return `
                 <button data-goto="${this._data.page - 1}" class="btn--inline pagination__btn--prev">
+                    <svg class="search__icon">
             `;
         }
 
