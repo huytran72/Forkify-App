@@ -11,6 +11,7 @@ class PaginationView extends View {
         // Page 1, and there are other pages
             if(curPage === 1 && numPages > 1) {
                 return `
+                    <button data-goto="${curPage + 1}" class="btn--inline pagination__btn--next">
                 `;
             }
         // Page 1, and there are NO other pages
