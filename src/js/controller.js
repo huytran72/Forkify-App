@@ -62,6 +62,7 @@ const controlSearchResults = async function () {
 
 const controlPagination = function (goToPage) {
   // 1) Print NEW results
+  resultsView.render(model.getSearchResultsPage(goToPage));
 };
 
 const init = function () {
