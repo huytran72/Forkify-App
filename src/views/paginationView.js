@@ -7,8 +7,9 @@ class PaginationView extends View {
     addHandlerClick(handler) {
         this._parentElement.addEventListener('click', function(e) {
             const btn = e.target.closest('.btn--inline');
+        }
     }
-
+    
     _generateMarkup() {
         const curPage = this._data.page;
         const numPages = Math.ceil(this._data.results.length / this._data.resultsPerPage);
