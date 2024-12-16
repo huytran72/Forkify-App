@@ -61,7 +61,7 @@ const controlSearchResults = async function () {
 };
 
 const controlPagination = function (goToPage) {
-
+  // 1) Print NEW results
 };
 
 const init = function () {
