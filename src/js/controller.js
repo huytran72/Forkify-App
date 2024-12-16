@@ -60,6 +60,8 @@ const controlSearchResults = async function () {
   }
 };
 
+const controlPagination = function (goToPage) {
+
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   researchView.addHandlerSearch(controlSearchResults);
