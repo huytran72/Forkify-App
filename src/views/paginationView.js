@@ -5,7 +5,7 @@ class PaginationView extends View {
     _parentElement = document.querySelector('.pagination');
 
     addHandlerClick(handler) {
-        
+        this._parentElement.addEventListener('click', function(e) {
     }
 
     _generateMarkup() {
