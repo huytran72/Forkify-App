@@ -49,7 +49,7 @@ class PaginationView extends View {
         // Other page
         if(this._data.page < numPages) {
             return `
-
+                <button data-goto="${this._data.page - 1}" class="btn--inline pagination__btn--prev">
             `;
         }
 
