@@ -60,6 +60,7 @@ class PaginationView extends View {
                     <span>Page ${this._data.page + 1}</span>
                     <svg class="search__icon">
                         <use href="${icons}#icon-arrow-right"></use>
+                    </svg>
             `;
         }
 
