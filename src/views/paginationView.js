@@ -54,6 +54,7 @@ class PaginationView extends View {
                         <use href="${icons}#icon-arrow-left"></use>
                     </svg>
                     <span>Page ${this._data.page - 1}</span>
+                </button>
             `;
         }
 
