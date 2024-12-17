@@ -27,6 +27,7 @@ class PaginationView extends View {
                     <svg class="search__icon">
                         <use href="${icons}#icon-arrow-right"></use>
                     </svg>
+                </button>
             `;
         }
 
