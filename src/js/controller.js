@@ -69,7 +69,7 @@ const controlPagination = function (goToPage) {
 };
 
 const controlServings = function (newServings) {
-
+  // Update the recipe servings (in state)
 };
 
 const init = function () {
