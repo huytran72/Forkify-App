@@ -70,6 +70,8 @@ const controlPagination = function (goToPage) {
 
 const controlServings = function (newServings) {
 
+};
+
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResults);
