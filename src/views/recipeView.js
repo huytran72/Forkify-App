@@ -15,7 +15,7 @@ class RecipeView extends View {
     };
 
     addHandlerUpdateServings(handler) {
-      
+        this._parentElement.addEventListener('click', function(e) {
     };
 
     reder(data) {
