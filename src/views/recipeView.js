@@ -15,6 +15,8 @@ class RecipeView extends View {
     };
 
     addHandlerUpdateServings(handler) {
+      
+    };
 
     reder(data) {
         this._data = data;
