@@ -13,6 +13,8 @@ export default class View {
     }
 
     update(data){
+        
+    };
 
     _clear(){
         console.log(this._parentElement);
