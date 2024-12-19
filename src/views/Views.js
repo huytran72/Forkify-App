@@ -12,6 +12,8 @@ export default class View {
         this._parentElement.insertAdjacentHTML('afterbegin', markup);
     }
 
+    update(data){
+
     _clear(){
         console.log(this._parentElement);
         this._parentElement.innerHTML = '';
