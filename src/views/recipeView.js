@@ -10,6 +10,10 @@ class RecipeView extends View {
     _errorMessage = 'We could not find that recipe. Please try another one!';
     _message = '';
 
+    addHandlerRender(handler) {
+      
+    };
+
     reder(data) {
         this._data = data;
         const markup = this._generateMarkup();
