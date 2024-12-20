@@ -25,6 +25,8 @@ export default class View {
         console.log(newElements);
 
         newElements.forEach((newEl, i) => {
+            
+        });
     };
 
     _clear(){
