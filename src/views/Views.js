@@ -29,6 +29,9 @@ export default class View {
             console.log(curEl, newEl.isEqualNode(curEl));
             
             // Updates changed TEXT
+            if(!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !== ''){
+                curEl.textContent = newEl.textContent;
+            }
         });
     };
 
