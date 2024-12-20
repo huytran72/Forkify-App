@@ -23,6 +23,8 @@ export default class View {
         const curElements = Array.from(this._parentElement.querySelectorAll('*'));
         console.log(curElements);
         console.log(newElements);
+
+        newElements.forEach((newEl, i) => {
     };
 
     _clear(){
