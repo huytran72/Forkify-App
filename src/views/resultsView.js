@@ -11,6 +11,8 @@ class ResultsView extends View {
     }
 
     _generateMarkupPreview(result) {
+        const id = window.location.hash.slice(1);
+
         return `
             <li class="preview">
                 <a class="preview__link" href="#${result.id}">
