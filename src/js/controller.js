@@ -16,6 +16,8 @@ const controlRecipes = async function () {
   try {
     resultsView.renderSpinner();
 
+    // 0) Get ID from url
+
     // 1) Loading recipe
     await model.loadRecipe(id);
 
