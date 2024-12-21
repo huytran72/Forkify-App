@@ -78,5 +78,5 @@ export const updateServings = function(newServings) {
 };
 
 export const bookmarkRecipe = function(recipe) {
-    if()
+    // Add bookmark
 };
