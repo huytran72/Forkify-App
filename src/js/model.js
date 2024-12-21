@@ -80,4 +80,6 @@ export const updateServings = function(newServings) {
 export const bookmarkRecipe = function(recipe) {
     // Add bookmark
     state.bookmarks.push(recipe);
+
+    // Mark current recipe as bookmarked
 };
