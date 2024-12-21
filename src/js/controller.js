@@ -70,6 +70,8 @@ const controlServings = function (newServings) {
 };
 
 const controlAddBookmark = function () {
+  
+};
 
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
