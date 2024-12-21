@@ -70,7 +70,7 @@ const controlServings = function (newServings) {
 };
 
 const controlAddBookmark = function () {
-  
+  // 1) Add/remove bookmark
 };
 
 const init = function () {
