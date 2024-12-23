@@ -80,6 +80,7 @@ const controlAddBookmark = function () {
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResults);
+  recipeView.addHandlerAddBookmark(controlAddBookmark);
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerUpdateServings(controlServings);
   
