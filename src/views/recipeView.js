@@ -23,6 +23,8 @@ class RecipeView extends View {
         });
     };
 
+    addHandlerAddBookmark(handler) {
+
     reder(data) {
         this._data = data;
         const markup = this._generateMarkup();
