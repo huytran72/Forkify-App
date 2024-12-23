@@ -90,5 +90,5 @@ export const bookmarkRecipe = function(recipe) {
 
 
 export const deleteBookmark = function(id) {
-    
+    // Delete bookmark    
 };
