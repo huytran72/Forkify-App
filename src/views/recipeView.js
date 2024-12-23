@@ -24,7 +24,9 @@ class RecipeView extends View {
     };
 
     addHandlerAddBookmark(handler) {
-        this._parentElement.addEventListener('click', function(e) {    
+        this._parentElement.addEventListener('click', function(e) {
+          
+        }); 
     };
 
     reder(data) {
