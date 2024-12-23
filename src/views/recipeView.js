@@ -24,6 +24,8 @@ class RecipeView extends View {
     };
 
     addHandlerAddBookmark(handler) {
+      
+    };
 
     reder(data) {
         this._data = data;
