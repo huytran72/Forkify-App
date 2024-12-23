@@ -31,6 +31,7 @@ export const loadRecipe = async function(id) {
         };
 
         if(state.bookmarks.some(bookmark => bookmark.id === id)) recipe.bookmarked = true;
+        else recipe.bookmarked = false;
 
         console.log(state.recipe);
     } catch (err) {
