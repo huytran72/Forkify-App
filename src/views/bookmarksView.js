@@ -13,6 +13,7 @@ class ResultsView extends View {
     _generateMkarupPreview(result) {
         return `
             <li class="preview">    
+                <a class="preview__link preview__link--active" href="#${result.id}">
         `;    
     };
 };
