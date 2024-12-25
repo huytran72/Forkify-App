@@ -14,6 +14,7 @@ class ResultsView extends View {
         return `
             <li class="preview">    
                 <a class="preview__link preview__link--active" href="#${result.id}">
+                    <figure class="preview__fig">
         `;    
     };
 };
