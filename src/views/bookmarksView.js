@@ -11,7 +11,9 @@ class ResultsView extends View {
     }
 
     _generateMkarupPreview(result) {
+        return `
         
+        `;    
     };
 };
 
