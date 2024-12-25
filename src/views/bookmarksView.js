@@ -22,6 +22,7 @@ class ResultsView extends View {
                         <p class="preview__publisher">${result.publisher}</p>
                     </div>
                 </a>
+            </li>
         `;    
     };
 };
