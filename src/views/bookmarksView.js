@@ -16,6 +16,7 @@ class ResultsView extends View {
                 <a class="preview__link preview__link--active" href="#${result.id}">
                     <figure class="preview__fig">
                         <img src="${result.image}" alt="${result.title}" />
+                    </figure>
         `;    
     };
 };
