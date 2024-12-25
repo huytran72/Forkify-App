@@ -12,7 +12,7 @@ class ResultsView extends View {
 
     _generateMkarupPreview(result) {
         return `
-        
+            <li class="preview">    
         `;    
     };
 };
