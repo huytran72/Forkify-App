@@ -27,6 +27,8 @@ const controlRecipes = async function () {
     // 2) Rendering recipe
     recipeView.render(model.state.recipe);  
 
+    // 3) Updating bookmarks view
+
     // Test
     controlServings();
   } catch (err) {
