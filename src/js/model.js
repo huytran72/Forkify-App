@@ -80,6 +80,10 @@ export const updateServings = function(newServings) {
     state.recipe.servings = newServings;
 };
 
+const persistBookmarks = function() {
+    localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
+};
+
 export const bookmarkRecipe = function(recipe) {
     // Add bookmark
     state.bookmarks.push(recipe);
