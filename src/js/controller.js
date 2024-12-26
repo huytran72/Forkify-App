@@ -28,6 +28,7 @@ const controlRecipes = async function () {
     recipeView.render(model.state.recipe);  
 
     // 3) Updating bookmarks view
+    debugger;
     bookmarksView.render(model.state.bookmarks);
 
     // Test
