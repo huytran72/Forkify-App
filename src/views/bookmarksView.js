@@ -8,7 +8,7 @@ class ResultsView extends View {
     _message = '';
 
     addHandlerRender(handler) {
-        
+        window.addEventListener('load', handler);        
     }
 
     _generateMarkup() {
