@@ -2,11 +2,7 @@ import View from './View.js';
 import icons from 'url:../../img/icons.svg'; // Parcel 2
 
 class PreviewView extends View {
-    _parentElement = '';    
-
-    _generateMarkup() {
-        return this._data.map(this._generateMarkupPreview).join('');
-    }
+    _parentElement = '';     
 
     _generateMarkupPreview(result) {
         const id = window.location.hash.slice(1);
