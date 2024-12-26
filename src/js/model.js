@@ -105,3 +105,7 @@ export const deleteBookmark = function(id) {
 
     persistBookmarks();
 };
+
+const init = function() {
+    
+};
