@@ -93,6 +93,7 @@ const controlBookmark = function () {
 };
 
 const init = function () {
+  bookmarksView.addHandlerRender(controlBookmark);
   recipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResults);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
