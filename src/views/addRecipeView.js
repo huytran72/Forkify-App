@@ -5,6 +5,8 @@ class AddRecipeView extends View {
     _parentElement = document.querySelector(".upload"); 
 
     _message = "Recipe was successfully uploaded";
+
+    _window = document.querySelector(".add-recipe-window");
     
     _generateMarkup() {}
 };
