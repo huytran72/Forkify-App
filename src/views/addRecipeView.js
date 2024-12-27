@@ -7,6 +7,7 @@ class AddRecipeView extends View {
     _message = "Recipe was successfully uploaded";
 
     _window = document.querySelector(".add-recipe-window");
+    _overlay = document.querySelector(".overlay");
     
     _generateMarkup() {}
 };
