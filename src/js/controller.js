@@ -93,7 +93,14 @@ const controlBookmark = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
-const controlAddRecipe = async function (newRecipe) {};
+const controlAddRecipe = async function (newRecipe) {
+  try {
+
+  
+  } catch {
+    
+  }
+};
 
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmark);
