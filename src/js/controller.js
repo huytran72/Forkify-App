@@ -98,6 +98,8 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderSpinner();
 
     await model.uploadRecipe(newRecipe);
+
+    recipeView.render(model.state.recipe);
   
   } catch {
 
