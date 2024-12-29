@@ -95,10 +95,10 @@ const controlBookmark = function () {
 
 const controlAddRecipe = async function (newRecipe) {
   try {
-
+    addRecipeView.renderSpinner();
   
   } catch {
-    
+
   }
 };
 
