@@ -117,7 +117,7 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerUpdateServings(controlServings);
-  
+  addRecipeView.addHandlerUpload(controlAddRecipe);
 };
 init();
 
