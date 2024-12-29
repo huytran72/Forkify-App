@@ -35,6 +35,7 @@ class AddRecipeView extends View {
         this._parentElement.addEventListener("submit", function(e){    
             e.preventDefault();
             const dataArr = [...new FormData(this)]; // Convert FormData object to an array
+            const data = Object.fromEntries(dataArr); // Convert array to an object
         });
     };
     
