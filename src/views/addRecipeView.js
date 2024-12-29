@@ -38,6 +38,7 @@ class AddRecipeView extends View {
             const data = Object.fromEntries(dataArr); // Convert array to an object
         });
     };
+
     
     _generateMarkup() {}
 };
