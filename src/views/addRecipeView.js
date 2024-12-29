@@ -25,6 +25,10 @@ class AddRecipeView extends View {
     addHandlerShowWindow(handler) {
         this._btnOpen.addEventListener("click", this.toggleWindow);
     }
+
+    _addHandlerHideWindow() {
+        
+    };
     
     _generateMarkup() {}
 };
