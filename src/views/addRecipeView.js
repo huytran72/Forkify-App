@@ -32,8 +32,8 @@ class AddRecipeView extends View {
     };
 
     addHandlerUpload(handler) {
-        this._parentElement.addEventListener("submit", function(e) {    
-            
+        this._parentElement.addEventListener("submit", function(e){    
+            e.preventDefault();
         });
     };
     
