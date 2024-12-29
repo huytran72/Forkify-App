@@ -100,6 +100,8 @@ const controlAddRecipe = async function (newRecipe) {
     await model.uploadRecipe(newRecipe);
 
     recipeView.render(model.state.recipe);
+
+    addRecipeView.renderMessage();
   
   } catch {
 
