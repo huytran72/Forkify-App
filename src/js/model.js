@@ -136,6 +136,7 @@ export const uploadRecipe = async function(newRecipe) {
         title: newRecipe.title,
         source_url: newRecipe.sourceUrl,
         image_url: newRecipe.image,
+        publisher: newRecipe.publisher,
     };
 
 
