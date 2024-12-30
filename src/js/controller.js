@@ -108,6 +108,7 @@ const controlAddRecipe = async function (newRecipe) {
     window.history.pushState(null, '', `#${model.state.recipe.id}`);
   
   } catch {
+    console.error('💥', err);
     addRecipeView.renderError();
   }
 };
