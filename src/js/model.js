@@ -132,5 +132,9 @@ export const uploadRecipe = async function(newRecipe) {
         throw err;
     }
 
+    const recipe = {
+        
+    };
+
 
 };
