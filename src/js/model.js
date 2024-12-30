@@ -119,6 +119,7 @@ const clearBookmarks = function() {
 clearBookmarks();
 
 export const uploadRecipe = async function(newRecipe) {
+    try {
     const ingredients = Object.entries(newRecipe).filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '').map(ing => {        
         const ingArr = ing[1].split(',').map(el => el.trim());
         if(ingArr.length !== 3) throw new Error('Wrong ingredient format! Please use the correct format :)');
@@ -127,5 +128,9 @@ export const uploadRecipe = async function(newRecipe) {
     }
     );
 
-    
+    } catch (err) {
+        throw err;
+    }
+
+
 };
