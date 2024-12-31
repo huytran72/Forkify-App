@@ -22,4 +22,8 @@ export const getJSON = async function (url) {
         console.error(err);
         throw err;
     }
-}
+};
+
+export const sendJSON = async function (url, uploadData) {
+  
+};
