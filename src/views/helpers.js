@@ -34,7 +34,7 @@ export const sendJSON = async function (url, uploadData) {
       body: JSON.stringify(uploadData),
     });
 
-    const res = await Promise
+    const res = await Promise.race(fetchPro, timeout(TIMEOUT_SEC));
   } catch (err) {  
     console.error(err);
     throw err;
