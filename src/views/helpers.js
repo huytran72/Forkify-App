@@ -33,6 +33,8 @@ export const sendJSON = async function (url, uploadData) {
       },
       body: JSON.stringify(uploadData),
     });
+
+    const res = await Promise
   } catch (err) {  
     console.error(err);
     throw err;
