@@ -26,8 +26,8 @@ export const getJSON = async function (url) {
 
 export const sendJSON = async function (url, uploadData) {
   try {
-
+    const fetchPro = fetch(url, {
   } catch () {  
-    
+
   }  
 };
