@@ -20,7 +20,8 @@ const createRecipeObject = function(data) {
 
     return {
         id: recipe.id,
-        title: recipe.title,        
+        title: recipe.title,
+        publisher: recipe.publisher,        
     };
 };
 
