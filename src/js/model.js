@@ -144,9 +144,7 @@ export const uploadRecipe = async function(newRecipe) {
         return { quantity: quantity ? +quantity : null, unit, description };
     });
     console.log(ingredients);
-    } catch (err) {
-        throw err;
-    }
+    
 
     const recipe = {
         title: newRecipe.title,
@@ -160,4 +158,8 @@ export const uploadRecipe = async function(newRecipe) {
 
     const data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
     console.log(data);
+    
+    } catch (err) {
+        throw err;
+}
 };
