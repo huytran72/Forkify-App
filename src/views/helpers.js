@@ -17,6 +17,7 @@ export const AJAX = async function (url, uploadData = undefined) {
       headers: {
         'Content-Type': 'application/json',
       },
+      body: JSON.stringify(uploadData),
 };
 
 export const getJSON = async function (url) {
