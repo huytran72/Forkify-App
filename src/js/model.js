@@ -26,7 +26,8 @@ const createRecipeObject = function(data) {
         image: recipe.image_url,
         servings: recipe.servings,
         cookingTime: recipe.cooking_time,
-        ingredients: recipe.ingredients,        
+        ingredients: recipe.ingredients, 
+        bookmarked: false,       
     };
 };
 
@@ -158,7 +159,7 @@ export const uploadRecipe = async function(newRecipe) {
     const data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
     state.recipe = createRecipeObject(data);
     bookmarkRecipe(state.recipe);
-    
+
     } catch (err) {
         throw err;
 }
