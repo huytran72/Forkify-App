@@ -17,6 +17,10 @@ export const state = {
 
 const createRecipeObject = function(data) {
     const { recipe } = data.data;    
+
+    return {
+        
+    };
 };
 
 export const loadRecipe = async function(id) {
