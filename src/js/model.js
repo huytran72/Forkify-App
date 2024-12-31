@@ -19,7 +19,8 @@ const createRecipeObject = function(data) {
     const { recipe } = data.data;    
 
     return {
-        id: recipe.id,        
+        id: recipe.id,
+        title: recipe.title,        
     };
 };
 
