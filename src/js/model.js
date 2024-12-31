@@ -28,6 +28,7 @@ const createRecipeObject = function(data) {
         cookingTime: recipe.cooking_time,
         ingredients: recipe.ingredients, 
         bookmarked: false,       
+        key: recipe.key
     };
 };
 
