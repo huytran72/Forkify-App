@@ -14,6 +14,9 @@ export const AJAX = async function (url, uploadData = undefined) {
   try {  
     const fetchPro = uploadData ? fetch(url, {
       method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
 };
 
 export const getJSON = async function (url) {
