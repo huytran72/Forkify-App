@@ -13,6 +13,7 @@ const timeout = function (s) {
 export const AJAX = async function (url, uploadData = undefined) {
   try {  
     const fetchPro = uploadData ? fetch(url, {
+      method: 'POST',
 };
 
 export const getJSON = async function (url) {
