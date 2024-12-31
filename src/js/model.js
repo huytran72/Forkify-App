@@ -143,7 +143,6 @@ export const uploadRecipe = async function(newRecipe) {
         const [quantity, unit, description] = ingArr;
         return { quantity: quantity ? +quantity : null, unit, description };
     });
-    console.log(ingredients);
     
 
     const recipe = {
@@ -157,7 +156,6 @@ export const uploadRecipe = async function(newRecipe) {
     };
 
     const data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
-    console.log(data);
     
     } catch (err) {
         throw err;
