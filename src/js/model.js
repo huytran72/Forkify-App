@@ -24,7 +24,8 @@ const createRecipeObject = function(data) {
         publisher: recipe.publisher,
         sourceUrl: recipe.source_url,
         image: recipe.image_url,
-        servings: recipe.servings,        
+        servings: recipe.servings,
+        cookingTime: recipe.cooking_time,        
     };
 };
 
