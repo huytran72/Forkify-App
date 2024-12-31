@@ -21,7 +21,8 @@ const createRecipeObject = function(data) {
     return {
         id: recipe.id,
         title: recipe.title,
-        publisher: recipe.publisher,        
+        publisher: recipe.publisher,
+        sourceUrl: recipe.source_url,        
     };
 };
 
