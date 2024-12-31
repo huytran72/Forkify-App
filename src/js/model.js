@@ -143,4 +143,5 @@ export const uploadRecipe = async function(newRecipe) {
     };
 
     const data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
+    console.log(data);
 };
