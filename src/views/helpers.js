@@ -33,7 +33,7 @@ export const sendJSON = async function (url, uploadData) {
       },
       body: JSON.stringify(uploadData),
     });
-  } catch () {  
+  } catch (err) {  
 
   }  
 };
