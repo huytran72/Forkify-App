@@ -111,6 +111,9 @@ const controlAddRecipe = async function (newRecipe) {
     window.history.pushState(null, '', `#${model.state.recipe.id}`);
 
     // Close form window
+    setTimeout(function () {
+      addRecipeView.toggleWindow();
+    }, model.CLOSE_MODAL_SEC * 1000);
   
   } catch {
     console.error('💥', err);
