@@ -141,5 +141,5 @@ export const uploadRecipe = async function(newRecipe) {
         ingredients,
     };
 
-
+    console.log(recipe);
 };
