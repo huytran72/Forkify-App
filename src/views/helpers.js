@@ -34,6 +34,7 @@ export const sendJSON = async function (url, uploadData) {
       body: JSON.stringify(uploadData),
     });
   } catch (err) {  
-
+    console.error(err);
+    throw err;
   }  
 };
