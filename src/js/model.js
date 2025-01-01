@@ -158,7 +158,7 @@ export const uploadRecipe = async function(newRecipe) {
         ingredients,
     };
 
-    const data = await sendJSON(`${API_URL}?key=${KEY}`, recipe);
+    const data = await AJAX(`${API_URL}?key=${KEY}`, recipe);
     state.recipe = createRecipeObject(data);
     bookmarkRecipe(state.recipe);
 
