@@ -30,6 +30,7 @@ export const AJAX = async function (url, uploadData = undefined) {
   }
 };
 
+/*
 export const getJSON = async function (url) {
     try {
         const fetchPro = fetch(url);
@@ -64,3 +65,4 @@ export const sendJSON = async function (url, uploadData) {
     throw err;
   }  
 };
+*/
