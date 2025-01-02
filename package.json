@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./"
