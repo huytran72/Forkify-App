@@ -73,6 +73,7 @@ export const loadSearchResults = async function(query) {
                 title: rec.title,
                 publisher: rec.publisher,
                 image: rec.image_url,
+                ...AJAX(rec.key) && { key: rec.key },
             };
         });
 
